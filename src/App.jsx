@@ -16,10 +16,10 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Sơn đẹp trai quá trời</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+          có tín hiệu, lên phím 36: {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
