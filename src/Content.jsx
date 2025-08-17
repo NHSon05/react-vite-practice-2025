@@ -1,5 +1,5 @@
 import { useState } from "react"
-import {Content , TimerFunction, PreviewAvatar}  from "./useEffect"
+import {Content , TimerFunction, PreviewAvatar , FakeChatApp}  from "./useEffect"
 
 
 function TestMount() {
@@ -10,7 +10,8 @@ function TestMount() {
             {(show) && 
                 // <Content/>
                 // <TimerFunction/>
-                <PreviewAvatar/>
+                // <PreviewAvatar/>
+                <FakeChatApp/>
             }
         </div>
     )
