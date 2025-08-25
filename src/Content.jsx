@@ -1,5 +1,6 @@
 import { useState } from "react"
 import {Content , TimerFunction, PreviewAvatar , FakeChatApp}  from "./useEffect"
+import { UseLayout, UseRef,Memo } from "./useLayoutEffect";
 
 
 function TestMount() {
@@ -11,7 +12,11 @@ function TestMount() {
                 // <Content/>
                 // <TimerFunction/>
                 // <PreviewAvatar/>
-                <FakeChatApp/>
+                // <FakeChatApp/>
+
+                <UseRef/>
+                // <UseLayout/>
+                // <Memo/>
             }
         </div>
     )

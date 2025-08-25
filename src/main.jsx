@@ -8,19 +8,19 @@ import TestMount from './Content.jsx'
 import AxiosTest from './axios.jsx'
 
 // Fake Comment
-function emitComment(id){
-    setInterval(() => {
-        window.dispatchEvent(
-            new CustomEvent(`lesson-${id}`, {
-                detail: `Nội dung comment của lesson ${id}`
-            })
-        )
-    },2000)
-}
+// function emitComment(id){
+//     setInterval(() => {
+//         window.dispatchEvent(
+//             new CustomEvent(`lesson-${id}`, {
+//                 detail: `Nội dung comment của lesson ${id}`
+//             })
+//         )
+//     },2000)
+// }
 
-emitComment(1)
-emitComment(2)
-emitComment(3)
+// emitComment(1)
+// emitComment(2)
+// emitComment(3)
 
 
 createRoot(document.getElementById('root')).render(
