@@ -24,8 +24,6 @@ import AxiosTest from './axios.jsx'
 
 
 createRoot(document.getElementById('root')).render(
-    <React.StrictMode>
-        {/* <AxiosTest/> */}
+    // <React.StrictMode>
         <TestMount/>
-    </React.StrictMode>
 )
