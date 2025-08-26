@@ -4,6 +4,7 @@ import { UseLayout, UseRef,Memo } from "./useLayoutEffect";
 import UseCallB from "./useCallback";
 import UseMem from "./useMem.jsx";
 import UseReduce from "./useReduce.jsx";
+import ToDoApp from "./toDoApp.jsx";
 
 function TestMount() {
     const [show, setShow] = useState(false);
@@ -11,17 +12,7 @@ function TestMount() {
         <div>
             <button onClick={() => setShow(!show)}>Toggle</button>
             {(show) && 
-                // <Content/>
-                // <TimerFunction/>
-                // <PreviewAvatar/>
-                // <FakeChatApp/>
-
-                // <UseRef/>
-                // <UseCallB/>
-                // <UseLayout/>
-                // <Memo/>
-                // <UseMem/>
-                <UseReduce/>
+                <ToDoApp/>
             }
         </div>
     )
