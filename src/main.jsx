@@ -6,6 +6,10 @@ import App from './App.jsx'
 import ToDoList from './toDoList.jsx'
 import TestMount from './Content.jsx'
 import AxiosTest from './axios.jsx'
+import { ThemeProvider } from './ThemeContext.jsx'
+import Provider from './store/Provider.jsx'
+import ConReducer from './ConReducer.jsx'
+
 
 // Fake Comment
 // function emitComment(id){
@@ -24,6 +28,6 @@ import AxiosTest from './axios.jsx'
 
 
 createRoot(document.getElementById('root')).render(
+    <TestMount/>
     // <React.StrictMode>
-        <TestMount/>
 )
